@@ -1,0 +1,3 @@
+[submodule "ExcelCore/BlueArchiveFlatData"]
+	path = ExcelCore/BlueArchiveFlatData
+	url = git@github.com:hexstr/BlueArchiveFlatData.git

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueArchive_AssetModifyTool", "BlueArchive_AssetModifyTool\BlueArchive_AssetModifyTool.csproj", "{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelCore", "ExcelCore\ExcelCore.csproj", "{C0F506A5-C9EE-4A8F-9645-6926CCE98486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F506A5-C9EE-4A8F-9645-6926CCE98486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F506A5-C9EE-4A8F-9645-6926CCE98486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F506A5-C9EE-4A8F-9645-6926CCE98486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F506A5-C9EE-4A8F-9645-6926CCE98486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
