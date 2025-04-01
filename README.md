@@ -1,0 +1,2 @@
+# BlueArchive_AssetModifyTool
+用于对BlueArchive中FlatBuffers数据提取和重打包
