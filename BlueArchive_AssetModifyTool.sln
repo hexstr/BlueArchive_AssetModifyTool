@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueArchive_AssetModifyTool", "BlueArchive_AssetModifyTool\BlueArchive_AssetModifyTool.csproj", "{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8A67B6-5ACC-4761-ACAE-E6A948BC0BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23FB541D-188E-4687-934D-9EE0D1BE6A36}
+	EndGlobalSection
+EndGlobal
