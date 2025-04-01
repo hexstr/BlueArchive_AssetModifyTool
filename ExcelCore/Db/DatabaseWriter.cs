@@ -1,5 +1,4 @@
-﻿using EFCore.BulkExtensions;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace ExcelCore.Db
 {
@@ -41,9 +40,8 @@ namespace ExcelCore.Db
                         foreach (BaseDBSchema add in add_data)
                         {
                             add.RowId = idx++;
+                            excel_context.Add(add);
                         }
-
-                        excel_context.BulkInsertOrUpdate(add_data);
                     }
                 }
 

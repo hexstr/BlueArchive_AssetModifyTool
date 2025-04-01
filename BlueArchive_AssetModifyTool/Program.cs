@@ -41,6 +41,11 @@ namespace ExcelExtractor
                 throw new ArgumentNullException(nameof(excel_path));
             }
 
+            if (excel_path == "null")
+            {
+                excel_path = "ExcelDB.db";
+            }
+
             Console.WriteLine($"Reading from: {excel_path}");
 
             if (excel_path.EndsWith(".db"))

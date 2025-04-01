@@ -202,11 +202,14 @@ namespace ExcelExtractor
 
                 Console.WriteLine($"[DownloadExcel] main_path: {main_path}");
 
-                var client = new HttpClient();
+                var client = new HttpClient()
+                {
+                    Timeout = TimeSpan.FromMinutes(5),
+                };
 
                 var rsp = await client.GetFromJsonAsync<VersionResponse>(resource_path);
 
-                var remote_files = rsp.Resources.Where(x => x.ResourcePath.Contains("TableBundles/Excel")).ToArray();
+                var remote_files = rsp.Resources.Where(x => x.ResourcePath.Contains("TableBundles/ExcelDB")).ToArray();
 
                 var new_files = remote_files.ExceptBy(ResourceFiles.Select(x => x.ResourceHash), y => y.ResourceHash).ToArray();
 
