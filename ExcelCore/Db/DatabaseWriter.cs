@@ -1,5 +1,4 @@
 ﻿using EFCore.BulkExtensions;
-using ExcelCore.Excel;
 using System.Text.Json;
 
 namespace ExcelCore.Db
@@ -8,7 +7,7 @@ namespace ExcelCore.Db
     {
         public static void Write(string output_file)
         {
-            var assembly = typeof(ExcelDumper).Assembly;
+            var assembly = typeof(DatabaseWriter).Assembly;
             var buildable_type_list = assembly.ExportedTypes.Where(x => x.Namespace == "ExcelCore.Converter");
             var excel_context = new ExcelContext(output_file);
 
